@@ -215,24 +215,50 @@ pb-5 .section-title {
     /* margin-left: 110px; */
 }
 
-.btn button{
+.btn1 button{
     position: relative;
     display: block;
-    margin: 0 20px;
     border: none;
     color: white;
     background: #222;
-    padding: 17px 60px;
+    padding: 15px 50px;
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
     outline: none;
     cursor: pointer;
     box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    overflow: hidden;
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 3px;
 }
-button:hover{
-    box-shadow:0 5px 15px rgba(0,0,0,.2) ;
+.btn1 a{
+    text-decoration: none;
+    color: #fff;
 }
+ button:hover{
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+.btn1 button::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    transition: all .5s ease-in-out;
+}
+.btn1 button::after{
+    background: #007B5E;
+    transform: translate(-98%, -25%) rotate(45deg);
+}
+/* .btn1:hover button::after{
+    transform: translate(-9%, -25%) rotate(45deg);
+} */
 /* footer css */
 section .section-title {
     text-align: center;
@@ -246,7 +272,7 @@ section .section-title {
 #footer h5{
 	/* padding-left: 10px; */
     /* padding-top: 40px; */
-    /* border-left: 3px solid #eeeeee; */
+    border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -301,4 +327,23 @@ section .section-title {
     position: absolute;
     left: 0; width: 200pc;
     background: #fff;
+}
+.map-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+   
+}
+.map-card{
+    
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0 5px 5px 0 gray,0 -4px 15px 0 gray;
+}
+.map-card img{
+    width: 100%;
+    
 }
