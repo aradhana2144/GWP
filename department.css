@@ -88,13 +88,13 @@ h4{
 .department h1{
     text-align: left;
     /* margin-left: 130px; */
-    padding-top: 15px;
+    padding-top: 5px;
     padding-left: 130px;
 }
 .department h5{
     text-align: left;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    /* padding-top: 5px; */
+    /* padding-bottom: 15px; */
     padding-left: 130px;
     /* background-color: rgba(0, 0, 0, .3); */
 }
