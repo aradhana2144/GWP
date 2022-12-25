@@ -81,21 +81,22 @@ h4{
     width: 90%;
 }
 .department{
-    height: 150px;
+    height: 100%;
     width: 100%;
     background-color: #ccc;
 }
 .department h1{
     text-align: left;
-   
-    padding-top: 40px;
+    /* margin-left: 130px; */
+    padding-top: 15px;
+    padding-left: 130px;
 }
 .department h5{
     text-align: left;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 130px;
-    background-color: rgba(0, 0, 0, .3);
+    /* background-color: rgba(0, 0, 0, .3); */
 }
 .box{
     width: 100%;
@@ -106,7 +107,7 @@ h4{
     margin-top: 60px;    
 }
 .cardd{
-    width: 1000px;
+    width: 800px;
     text-align: center;
     margin-top: 30px;
     box-shadow: 0 5px 5px 0 gray,0 -4px 15px 0 gray;
