@@ -1,15 +1,45 @@
+
 #contact-us{
 	background: lightgray;
 	margin-bottom: 2px;
 	padding-bottom: 70px;
+	
 }
 h1
 {
 	color:#000;
-	margin:40px 0 60px 0;
+	padding:40px 0 40px 0;
 	font-weight:400;
+	
 }
-
+#contact-us h1{
+	font-weight: 900;
+	color: #007B5E;
+	font-family: 'Bree Serif', serif;
+	letter-spacing: 25px;
+}
+#contact-us h1::before{
+	background-color: #000;
+	content: "";
+	display: inline-block;
+	height: 2px;
+	position: relative;
+	vertical-align: middle;
+	width: 35%;
+	right: .5em;
+	margin-left: -50%;
+}
+#contact-us h1::after{
+background-color: #000;
+content: "";
+display: inline-block;
+height: 2px;
+position: relative;
+vertical-align: middle;
+width: 35%;
+left: .5em;
+margin-right: -50%;
+}
 .our-team-main
 {
 	width:100%;
@@ -21,15 +51,13 @@ h1
 	overflow:hidden;
 	position:relative;
 	transition:0.5s;
-	margin-bottom:28px;
+	margin-bottom:30px;
 }
-
-
 .our-team-main img
 {
-	border-radius:50%;
+	border-radius:25%;
 	margin-bottom:20px;
-	width: 120px;
+	width: 100px;
 }
 
 .our-team-main h3
@@ -50,12 +78,18 @@ h1
 	position:absolute;
 	top:0;
 	left:0;
-	padding:5px 15px 0 15px;
+	padding: 30px;
 	text-align:left;
-	background:#007B5E;
+	background:rgba(24, 216, 171, 0.1);
 	
 }
-
+.team-back a{
+	text-decoration: none;
+	color: #007B5E;
+	font-size: 15px;
+	font-weight: 500;
+	word-spacing: 10px;
+}
 .team-front
 {
 	width:100%;
@@ -81,29 +115,3 @@ h1
 }
 
 /*our-team-main*/
-.map{
-	background:lightgray;
-	padding: 100px;
-	
-}
-.map h2{
-	color: #007B5E;
-}
-
-.map p{
-	padding-top: 30px;
-	font-size: 18px;
-	font-weight: 600;
-
-}
-.college-address{
-	margin-bottom: 40px;
-	
-}
-/* .college-address h2{
-	color: #007B5E;
-	font-weight: bold;
-    font-size: 22px;
-    text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
-} */
