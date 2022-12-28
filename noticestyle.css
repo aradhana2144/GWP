@@ -1,3 +1,37 @@
+.text-center h1{
+	font-weight: 900;
+    text-align: center;
+	color: #007B5E;
+	font-family: 'Bree Serif', serif;
+	letter-spacing: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: linear-gradient(to right, transparent, rgb(154, 187, 147), transparent);
+    margin-bottom: 40px; 
+    
+}
+.text-center h1::before{
+	background-color: #000;
+	content: "";
+	display: inline-block;
+	height: 2px;
+	position: relative;
+	vertical-align: middle;
+	width: 30%;
+	right: .5em;
+	margin-left: -50%;
+}
+.text-center h1::after{
+background-color: #000;
+content: "";
+display: inline-block;
+height: 2px;
+position: relative;
+vertical-align: middle;
+width: 30%;
+left: .5em;
+margin-right: -50%;
+}
 .noticeborder{
     text-align: center;
     margin: 0 auto;
@@ -51,8 +85,9 @@
     font-style: normal;
     text-align: center;
 }
-.gwpnotice, .d-flex a{
+.gwpnotice{
     padding-top: 30px;
+    text-align: left;
     
 }
 .gwpnotice a{
@@ -63,9 +98,9 @@
     text-transform: capitalize;
 }
 .d-flex a{
-    font-size: 20px;
+    font-size: 40px;
     color: #CC4B69;
-    position:absolute ;
+    
 }
 .aline{
     width: 100%;
