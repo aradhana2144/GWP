@@ -155,7 +155,7 @@ h4{
     color: #007b5e;
     /* border-bottom: 2px solid #d82c90; */
 }
-.machanical h3::before{
+/* .machanical h3::before{
     background-color: #007B5E;
     content: "";
     display: inline-block;
@@ -176,7 +176,7 @@ vertical-align: middle;
 width: 9%;
 left: .5em;
 margin-right: -50%;
-}
+} */
 #footer {
     background: #007b5e !important;
     margin-top: 50px;
