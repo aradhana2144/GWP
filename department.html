@@ -28,11 +28,18 @@
     h4 {
       color: #007B5E;
     }
+    .faculty h1::before {
+      content: "";
+      position: absolute;
+      border-bottom: 5px solid #007B5E;
+      width: 25%;
+      margin-top: 45px;
+    }
 
     .department {
       height: 100%;
       width: 100%;
-      background-color: #ccc;
+      
     }
 
     .department h1 {
@@ -40,26 +47,29 @@
       /* margin-left: 130px; */
       padding-top: 5px;
       padding-left: 130px;
+      margin-bottom: 20px;
     }
 
-    .department h5 {
+    .faculty h5 {
       text-align: left;
-      padding-left: 130px;
+      margin: 0;
+      background-color: #E7E7E3;
+      padding-left: 50px;
+      padding-top: 5px;
+      
     }
-
     .box {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-      margin-bottom: 50px;
-      margin-top: 60px;
+      margin-bottom: 30px;
+      margin-top: 30px;
     }
 
     .cardd {
       width: 800px;
       text-align: center;
-      margin-top: 30px;
       box-shadow: 0 5px 5px 0 gray, 0 -4px 15px 0 gray;
       border: 3px solid rgb(0, 0, 0);
       border-radius: 10px;
@@ -199,7 +209,7 @@
                       src="https://img.icons8.com/small/16/null/department.png" /> DEPARTMENTS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="facality.html"><i class="fa-solid fa-users"></i> Facality</a>
+                  <a class="nav-link" href="facality.html"><i class="fa-solid fa-users"></i> Faculty</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="gallery.html"><i class="fas fa-camera"></i> Gallery</a>
@@ -208,10 +218,10 @@
                   <a class="nav-link" href="placement.html"><i class="fa-sharp fa-solid fa-graduation-cap"></i>
                     Placement</a>
                 </li>
-<!--                 <li class="nav-item">
-                  <a class="nav-link" href="addmission.html"><i class="fa-sharp fa-solid fa-child-reaching"></i>
-                    Addmission</a>
-                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="admission.html"><i class="fa-sharp fa-solid fa-child-reaching"></i>
+                    Admission</a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="notice.html"><i class="fa-solid fa-file-pdf"></i> Notice</a>
                 </li>
@@ -228,17 +238,17 @@
   <!-- end menuarea -->
   <div class="container department">
     <div class="row">
-      <div class="col">
-        <h1 class="text-center animate__animated animate__fadeInLeft">MACHANICAL DEPARTMENTS</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <h5 class="text-center animate__animated animate__fadeInRight">Machanical Engineering </h5>
+      <div class="col faculty">
+        <h1 class="text-center animate__animated animate__slideInUp">MACHANICAL DEPARTMENTS</h1>
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container faculty">
+    <div class="row">
+      <div class="col">
+        <h5>Machanical Engineering </h5>
+      </div>
+    </div>
     <div class="row">
       <div class="col-md-12 machanical">
         <div class="box">

@@ -155,7 +155,7 @@ h4{
     color: #007b5e;
     /* border-bottom: 2px solid #d82c90; */
 }
-/* .machanical h3::before{
+.machanical h3::before{
     background-color: #007B5E;
     content: "";
     display: inline-block;
@@ -176,7 +176,7 @@ vertical-align: middle;
 width: 9%;
 left: .5em;
 margin-right: -50%;
-} */
+}
 #footer {
     background: #007b5e !important;
     margin-top: 50px;
@@ -277,26 +277,4 @@ button {
 	cursor: pointer;
 	font-family: "Montserrat", sans-serif;
 	font-size: 20px;
-}
-#skew {
-    width:max-content;
-	border-radius: 20px 0px 20px 0px;
-	background-color: #007B5E;
-    font-family: 'Bree Serif', serif;
-    font-weight: 600;
-	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-	transition: border-radius 500ms ease, transform 500ms ease;
-}
-#skew a{
-    text-decoration: none;
-    color: #ffffff; 
-    letter-spacing: 4px;
-}
-#skew:hover {
-	border-radius: 0px 20px 0px 20px;
-	transform: skew(-10deg);
-}
-
-#skew:active {
-	transform: scale(0.9);
 }
